@@ -1,0 +1,12 @@
+/home/lexi/Coding/MusicLib/bin/Release/net8.0/MusicLib.deps.json
+/home/lexi/Coding/MusicLib/bin/Release/net8.0/MusicLib.dll
+/home/lexi/Coding/MusicLib/bin/Release/net8.0/MusicLib.pdb
+/home/lexi/Coding/MusicLib/obj/Release/net8.0/MusicLib.csproj.AssemblyReference.cache
+/home/lexi/Coding/MusicLib/obj/Release/net8.0/MusicLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/lexi/Coding/MusicLib/obj/Release/net8.0/MusicLib.AssemblyInfoInputs.cache
+/home/lexi/Coding/MusicLib/obj/Release/net8.0/MusicLib.AssemblyInfo.cs
+/home/lexi/Coding/MusicLib/obj/Release/net8.0/MusicLib.csproj.CoreCompileInputs.cache
+/home/lexi/Coding/MusicLib/obj/Release/net8.0/MusicLib.dll
+/home/lexi/Coding/MusicLib/obj/Release/net8.0/refint/MusicLib.dll
+/home/lexi/Coding/MusicLib/obj/Release/net8.0/MusicLib.pdb
+/home/lexi/Coding/MusicLib/obj/Release/net8.0/ref/MusicLib.dll

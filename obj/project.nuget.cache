@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "3rb26u9b6+hKJEQ6yp0uM+tAX3eHRCFRiwfLyDsEUUBXwzeNc5AFCDfdQ/QbTvofWNBEe/MrRnYhH9LxH2IVtg==",
+  "success": true,
+  "projectFilePath": "/home/lexi/Coding/MusicLib/MusicLib.csproj",
+  "expectedPackageFiles": [
+    "/home/lexi/.nuget/packages/anglesharp/1.1.0/anglesharp.1.1.0.nupkg.sha512",
+    "/home/lexi/.nuget/packages/htmlagilitypack/1.11.46/htmlagilitypack.1.11.46.nupkg.sha512",
+    "/home/lexi/.nuget/packages/messagepack/2.5.140/messagepack.2.5.140.nupkg.sha512",
+    "/home/lexi/.nuget/packages/messagepack.annotations/2.5.140/messagepack.annotations.2.5.140.nupkg.sha512",
+    "/home/lexi/.nuget/packages/microsoft.net.stringtools/17.6.3/microsoft.net.stringtools.17.6.3.nupkg.sha512",
+    "/home/lexi/.nuget/packages/spotifyexplode/1.0.7/spotifyexplode.1.0.7.nupkg.sha512",
+    "/home/lexi/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/lexi/.nuget/packages/system.text.encoding.codepages/8.0.0/system.text.encoding.codepages.8.0.0.nupkg.sha512",
+    "/home/lexi/.nuget/packages/youtubeexplode/6.3.12/youtubeexplode.6.3.12.nupkg.sha512",
+    "/home/lexi/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.0/microsoft.aspnetcore.app.ref.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

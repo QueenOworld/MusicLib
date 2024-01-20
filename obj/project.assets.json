@@ -1,0 +1,484 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AngleSharp/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/AngleSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AngleSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.46": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        }
+      },
+      "MessagePack/2.5.140": {
+        "type": "package",
+        "dependencies": {
+          "MessagePack.Annotations": "2.5.140",
+          "Microsoft.NET.StringTools": "17.6.3",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MessagePack.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MessagePack.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MessagePack.Annotations/2.5.140": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.NET.StringTools/17.6.3": {
+        "type": "package",
+        "compile": {
+          "ref/net7.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.NET.StringTools.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SpotifyExplode/1.0.7": {
+        "type": "package",
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.46"
+        },
+        "compile": {
+          "lib/net6.0/SpotifyExplode.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SpotifyExplode.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Text.Encoding.CodePages.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "YoutubeExplode/6.3.12": {
+        "type": "package",
+        "dependencies": {
+          "AngleSharp": "1.0.7"
+        },
+        "compile": {
+          "lib/net5.0/YoutubeExplode.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/YoutubeExplode.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AngleSharp/1.1.0": {
+      "sha512": "3baCuPkx2Wrpjr2b67wJAf9fCbYSbEVcdCh88S66HLdfHa2b1Mk1FsGpcH76uHLf3MPxopWngT1imHPEmDimAg==",
+      "type": "package",
+      "path": "anglesharp/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "anglesharp.1.1.0.nupkg.sha512",
+        "anglesharp.nuspec",
+        "lib/net461/AngleSharp.dll",
+        "lib/net461/AngleSharp.xml",
+        "lib/net472/AngleSharp.dll",
+        "lib/net472/AngleSharp.xml",
+        "lib/net6.0/AngleSharp.dll",
+        "lib/net6.0/AngleSharp.xml",
+        "lib/net7.0/AngleSharp.dll",
+        "lib/net7.0/AngleSharp.xml",
+        "lib/net8.0/AngleSharp.dll",
+        "lib/net8.0/AngleSharp.xml",
+        "lib/netstandard2.0/AngleSharp.dll",
+        "lib/netstandard2.0/AngleSharp.xml",
+        "logo.png"
+      ]
+    },
+    "HtmlAgilityPack/1.11.46": {
+      "sha512": "dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "type": "package",
+      "path": "htmlagilitypack/1.11.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlagilitypack.1.11.46.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net35/HtmlAgilityPack.dll",
+        "lib/Net35/HtmlAgilityPack.pdb",
+        "lib/Net35/HtmlAgilityPack.xml",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.3/HtmlAgilityPack.dll",
+        "lib/netstandard1.3/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.xml",
+        "lib/netstandard1.6/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.6/HtmlAgilityPack.dll",
+        "lib/netstandard1.6/HtmlAgilityPack.pdb",
+        "lib/netstandard1.6/HtmlAgilityPack.xml",
+        "lib/netstandard2.0/HtmlAgilityPack.deps.json",
+        "lib/netstandard2.0/HtmlAgilityPack.dll",
+        "lib/netstandard2.0/HtmlAgilityPack.pdb",
+        "lib/netstandard2.0/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.XML",
+        "lib/uap10.0/HtmlAgilityPack.dll",
+        "lib/uap10.0/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.pri"
+      ]
+    },
+    "MessagePack/2.5.140": {
+      "sha512": "nkIsgy8BkIfv40bSz9XZb4q//scI1PF3AYeB5X66nSlIhBIqbdpLz8Qk3gHvnjV3RZglQLO/ityK3eNfLii2NA==",
+      "type": "package",
+      "path": "messagepack/2.5.140",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/MessagePack.dll",
+        "lib/net6.0/MessagePack.xml",
+        "lib/netstandard2.0/MessagePack.dll",
+        "lib/netstandard2.0/MessagePack.xml",
+        "messagepack.2.5.140.nupkg.sha512",
+        "messagepack.nuspec"
+      ]
+    },
+    "MessagePack.Annotations/2.5.140": {
+      "sha512": "JE3vwluOrsJ4t3hnfXzIxJUh6lhx6M/KR8Sark/HOUw1DJ5UKu5JsAnnuaQngg6poFkRx1lzHSLTkxHNJO7+uQ==",
+      "type": "package",
+      "path": "messagepack.annotations/2.5.140",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MessagePack.Annotations.dll",
+        "lib/netstandard2.0/MessagePack.Annotations.xml",
+        "messagepack.annotations.2.5.140.nupkg.sha512",
+        "messagepack.annotations.nuspec"
+      ]
+    },
+    "Microsoft.NET.StringTools/17.6.3": {
+      "sha512": "N0ZIanl1QCgvUumEL1laasU0a7sOE5ZwLZVTn0pAePnfhq8P7SvTjF8Axq+CnavuQkmdQpGNXQ1efZtu5kDFbA==",
+      "type": "package",
+      "path": "microsoft.net.stringtools/17.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MSBuild-NuGet-Icon.png",
+        "README.md",
+        "lib/net472/Microsoft.NET.StringTools.dll",
+        "lib/net472/Microsoft.NET.StringTools.pdb",
+        "lib/net472/Microsoft.NET.StringTools.xml",
+        "lib/net7.0/Microsoft.NET.StringTools.dll",
+        "lib/net7.0/Microsoft.NET.StringTools.pdb",
+        "lib/net7.0/Microsoft.NET.StringTools.xml",
+        "lib/netstandard2.0/Microsoft.NET.StringTools.dll",
+        "lib/netstandard2.0/Microsoft.NET.StringTools.pdb",
+        "lib/netstandard2.0/Microsoft.NET.StringTools.xml",
+        "microsoft.net.stringtools.17.6.3.nupkg.sha512",
+        "microsoft.net.stringtools.nuspec",
+        "notices/THIRDPARTYNOTICES.txt",
+        "ref/net472/Microsoft.NET.StringTools.dll",
+        "ref/net472/Microsoft.NET.StringTools.xml",
+        "ref/net7.0/Microsoft.NET.StringTools.dll",
+        "ref/net7.0/Microsoft.NET.StringTools.xml",
+        "ref/netstandard2.0/Microsoft.NET.StringTools.dll",
+        "ref/netstandard2.0/Microsoft.NET.StringTools.xml"
+      ]
+    },
+    "SpotifyExplode/1.0.7": {
+      "sha512": "r7/z+sbjtWXgdZ9xmdrqQIhQyegv7qL+/nOAvPwgg++xtCB9+tXWhGRyFof3Z36Y/07hh+6E3ymTEC9ImnPUVw==",
+      "type": "package",
+      "path": "spotifyexplode/1.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.md",
+        "favicon.png",
+        "lib/net461/SpotifyExplode.dll",
+        "lib/net461/SpotifyExplode.xml",
+        "lib/net5.0/SpotifyExplode.dll",
+        "lib/net5.0/SpotifyExplode.xml",
+        "lib/net6.0/SpotifyExplode.dll",
+        "lib/net6.0/SpotifyExplode.xml",
+        "lib/netcoreapp3.1/SpotifyExplode.dll",
+        "lib/netcoreapp3.1/SpotifyExplode.xml",
+        "lib/netstandard2.0/SpotifyExplode.dll",
+        "lib/netstandard2.0/SpotifyExplode.xml",
+        "lib/netstandard2.1/SpotifyExplode.dll",
+        "lib/netstandard2.1/SpotifyExplode.xml",
+        "spotifyexplode.1.0.7.nupkg.sha512",
+        "spotifyexplode.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Encoding.CodePages/8.0.0": {
+      "sha512": "OZIsVplFGaVY90G2SbpgU7EnCoOO5pw1t4ic21dBF3/1omrJFpAGoNAVpPyMVOC90/hvgkGG3VFqR13YgZMQfg==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Text.Encoding.CodePages.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Text.Encoding.CodePages.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Text.Encoding.CodePages.dll",
+        "lib/net462/System.Text.Encoding.CodePages.xml",
+        "lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "lib/net7.0/System.Text.Encoding.CodePages.dll",
+        "lib/net7.0/System.Text.Encoding.CodePages.xml",
+        "lib/net8.0/System.Text.Encoding.CodePages.dll",
+        "lib/net8.0/System.Text.Encoding.CodePages.xml",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net7.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.xml",
+        "system.text.encoding.codepages.8.0.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "YoutubeExplode/6.3.12": {
+      "sha512": "nOesItK2+YFK0gVeM6aVdTq+Qld6Jd1AcLkAUI68MoFv55L1HpX8cRaWHM37263NO3kK/TBO0SCRJsMyyVcTXA==",
+      "type": "package",
+      "path": "youtubeexplode/6.3.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "favicon.png",
+        "lib/net461/YoutubeExplode.dll",
+        "lib/net461/YoutubeExplode.xml",
+        "lib/net5.0/YoutubeExplode.dll",
+        "lib/net5.0/YoutubeExplode.xml",
+        "lib/netcoreapp3.1/YoutubeExplode.dll",
+        "lib/netcoreapp3.1/YoutubeExplode.xml",
+        "lib/netstandard2.0/YoutubeExplode.dll",
+        "lib/netstandard2.0/YoutubeExplode.xml",
+        "lib/netstandard2.1/YoutubeExplode.dll",
+        "lib/netstandard2.1/YoutubeExplode.xml",
+        "youtubeexplode.6.3.12.nupkg.sha512",
+        "youtubeexplode.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AngleSharp >= 1.1.0",
+      "MessagePack >= 2.5.140",
+      "SpotifyExplode >= 1.0.7",
+      "YoutubeExplode >= 6.3.12"
+    ]
+  },
+  "packageFolders": {
+    "/home/lexi/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/lexi/Coding/MusicLib/MusicLib.csproj",
+      "projectName": "MusicLib",
+      "projectPath": "/home/lexi/Coding/MusicLib/MusicLib.csproj",
+      "packagesPath": "/home/lexi/.nuget/packages/",
+      "outputPath": "/home/lexi/Coding/MusicLib/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/lexi/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "AngleSharp": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "MessagePack": {
+            "target": "Package",
+            "version": "[2.5.140, )"
+          },
+          "SpotifyExplode": {
+            "target": "Package",
+            "version": "[1.0.7, )"
+          },
+          "YoutubeExplode": {
+            "target": "Package",
+            "version": "[6.3.12, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.0, 8.0.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
